@@ -16,14 +16,14 @@ export const AddCategory = ({ setCategories }) => {
   }
 
   return (
-    <form onSubmit={ handleSubmit }>
+    <form onSubmit={ handleSubmit } style={{marginTop: '50px'}}>
       <input 
         type="text"
         value={ inputVal }
-        placeholder="Write a category"
+        placeholder="Search something"
         onChange={ handleChange }
       />
-      <button type="submit">Add</button>
+      {/* <button type="submit">Add</button> */}
     </form>
   );
 }

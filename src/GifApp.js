@@ -10,7 +10,9 @@ const GifApp = () => {
 
   return(
     <>
-      <h2>Gif App</h2>
+      <div className="header">
+        <h2>Gif App</h2>
+      </div>
       <AddCategory setCategories={ setCategories } />
       <hr />
       <ul>
@@ -23,6 +25,9 @@ const GifApp = () => {
           ))
         }
       </ul>
+      <div className="footer">
+        <h2>Search whatever you want</h2>
+      </div>
     </>
   );
 }
