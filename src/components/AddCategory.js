@@ -10,7 +10,7 @@ export const AddCategory = ({ setCategories }) => {
   const handleSubmit = (event) => {
     event.preventDefault();
     if( inputVal.trim().length > 2 ) {
-      setCategories( prevState => [...prevState, inputVal] );
+      setCategories( prevState => [ inputVal, ...prevState ] );
       setInputVal('');
     }
   }
