@@ -9,7 +9,7 @@ const GifApp = () => {
   // const handleAdd = () => setCategories( prevState => [...prevState, 'Yasuo'] );
 
   return(
-    <>
+    <div className="main-container">
       <div className="header">
         <h2>Gif App</h2>
       </div>
@@ -25,10 +25,7 @@ const GifApp = () => {
           ))
         }
       </ul>
-      <div className="footer">
-        <h2>Search whatever you want</h2>
-      </div>
-    </>
+    </div>
   );
 }
 

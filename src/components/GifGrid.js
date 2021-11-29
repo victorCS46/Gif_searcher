@@ -14,7 +14,6 @@ export const GifGrid = ( { category } ) => {
       <h3 className="animate__animated animate__delay-2s animate__fadeIn">{ category }</h3>
       {loading && <p className="animate__animated animate__flash">Loading...</p>}
       <div className="card-grid">
-        {/* <ul> */}
           { 
             images.map( ( item ) => ( 
               <GifGridItem 
@@ -23,7 +22,6 @@ export const GifGrid = ( { category } ) => {
               /> 
             ))
           }
-        {/* </ul> */}
       </div>
     </>
   );
