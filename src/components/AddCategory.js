@@ -23,7 +23,6 @@ export const AddCategory = ({ setCategories }) => {
         placeholder="Search something"
         onChange={ handleChange }
       />
-      {/* <button type="submit">Add</button> */}
     </form>
   );
 }
